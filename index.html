@@ -3,7 +3,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Page Not Found</title>
     <link rel="icon" href="https://spaceb6.github.io/Images/spaceb_icon.png" type="image/png">
-    
     <style>
         * {
             margin: 0;
@@ -12,73 +11,62 @@
         }
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-color: #222;
+            color: white;
         }
-        .error-container {
+        .container {
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: black;
             padding: 20px;
-            width: 80%;
-            max-width: 1200px;
-        }
-        .error-message {
-            max-width: 50%;
-        }
-        .error-message h1 {
-            font-size: 2.5rem;
-            color: #333;
-        }
-        .error-message p {
-            font-size: 1.2rem;
-            color: #777;
-            margin-bottom: 20px;
-        }
-        .error-image {
-            max-width: 50%;
-        }
-        .error-image img {
-            width: 100%;
-            height: auto;
             border-radius: 10px;
+        }
+        .text-box {
+            max-width: 300px;
+            text-align: left;
+            margin-right: 20px;
+        }
+        .text-box h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .text-box p {
+            font-size: 14px;
+            margin-bottom: 20px;
         }
         .home-button {
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
+            padding: 10px 15px;
+            background-color: #555;
+            color: white;
             text-decoration: none;
             border-radius: 5px;
-            font-size: 1.2rem;
-            transition: background-color 0.3s;
+            transition: background 0.3s;
         }
         .home-button:hover {
-            background-color: #555;
+            background-color: #777;
+        }
+        .image-box img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
         }
     </style>
 </head>
 <body>
-
-    <div class="error-container">
-        <div class="error-message">
+    <div class="container">
+        <div class="text-box">
             <h1>Page cannot be found or no longer exists</h1>
             <p>Error: 404 | Page Not Found</p>
-            <a href="https://spaceb6.github.io/Home/" class="home-button">Go to Home Page</a>
+            <a href="https://spaceb6.github.io/Home/" class="home-button">Return to Home</a>
         </div>
-        <div class="error-image">
-            <img src="https://spaceb6.github.io/Images/Space_Not_Found.png" alt="Page Not Found">
+        <div class="image-box">
+            <img src="https://spaceb6.github.io/Images/Space_Not_Found.png" alt="404 Image">
         </div>
     </div>
-
-
-
-
 
 </body></html>
